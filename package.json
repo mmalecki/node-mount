@@ -1,0 +1,16 @@
+{
+  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "name": "mount",
+  "description": "Mount your device from node.js like what",
+  "keywords": ["mount", "linux", "device"],
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmalecki/node-mount.git"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
