@@ -15,7 +15,7 @@ v8::Handle<v8::Value> Mount(const v8::Arguments &args) {
   v8::String::Utf8Value type(args[2]->ToString());
 
   // TODO: expose flag values
-  return (mount(*device, *path, *type, 0, NULL) == 0) ? v8::True(): v8::False();
+  return (mount(*device, *path, *type, 0, NULL) == 0) ? v8::True() : v8::False();
 }
 
 void init (v8::Handle<v8::Object> target) {
